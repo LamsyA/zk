@@ -20,7 +20,9 @@ The Miller-Rabin primality test is a probabilistic algorithm used to determine w
 1. Clone the repository to your local machine:
 
 ```
-git clone https://github.com/your-username/miller-rabin
+git clone https://github.com/LamsyA/zk.git
+
+cd miller_rabin_test
 ```
 
 2. Navigate to the project directory:
