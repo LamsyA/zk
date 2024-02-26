@@ -45,7 +45,7 @@ cargo run
 The algorithm implemented in this code follows these steps:
 
 1. Handle base cases: Check if the number is less than or equal to 1, 2, or 3, and if it's even.
-2. Write the number as \( 2^r \cdot d + 1 \) where \( d \) is odd.
+2. Write the number as \( 2ˆr . d + 1 \) where \( d \) is odd.
 3. Perform the Miller-Rabin test with a specified number of iterations (`k`):
    - Generate random bases and compute modular exponentiation.
    - Test whether the number is likely prime or composite based on the Miller-Rabin test results.
