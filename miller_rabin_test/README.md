@@ -22,13 +22,12 @@ The Miller-Rabin primality test is a probabilistic algorithm used to determine w
 ```
 git clone https://github.com/LamsyA/zk.git
 
-cd miller_rabin_test
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd miller-rabin
+cd miller-rabin_test
 ```
 
 3. Open the `src/main.rs` file and customize the value of `n` and `k` variables in the `main` function according to the number you want to test for primality and the desired number of iterations.
