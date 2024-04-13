@@ -59,7 +59,7 @@ fn modular_exp(mut base: u64, mut exp: u64, modulus: u64) -> u64 {
 }
 
 fn main() {
-    let n = 17977; // Number to be tested
+    let n = 2_147_483_647; // Number to be tested
     let k = 2; // Number of iterations (higher k means higher accuracy)
     if miller_rabin(n, k) {
         println!("{} is likely prime", n);

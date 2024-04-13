@@ -1,6 +1,6 @@
 fn power_set(items: &mut Vec<char>) -> Vec<Vec<char>> {
     if items.is_empty() {
-        return vec![vec![]];
+        vec![vec![]]
     } else {
         let element = items.pop().unwrap();
         let subsets = power_set(items);
@@ -11,7 +11,7 @@ fn power_set(items: &mut Vec<char>) -> Vec<Vec<char>> {
             subset_with_element.push(element);
             new_subsets.push(subset_with_element);
         }
-        return new_subsets;
+        new_subsets
     }
 }
 
